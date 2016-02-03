@@ -25,5 +25,8 @@
         <module name="RemindMe_Server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RemindMe_Server" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

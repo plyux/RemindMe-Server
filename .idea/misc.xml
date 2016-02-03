@@ -38,6 +38,12 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
   <component name="IdProvider" IDEtalkID="38025072D9E4C7BC076B36C4E7E7BD7D" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
