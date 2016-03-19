@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - reminderdb@localhost" uuid="b00e9d09-17e0-454f-931f-9f3088156f43">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>reminderdb.public</schema-pattern>
+      <default-schemas>reminderdb.public</default-schemas>
+    </data-source>
+  </component>
+</project>
