@@ -17,8 +17,25 @@ public class Direction {
         @GenericGenerator(name = "increment", strategy = "increment")
         private long id;
 
-        @Column(name = "text", nullable = false, length = 100)
-        private String name;
+        @Column(name = "text", nullable = false, length = 2000)
+        private String text;
 
+        public Direction() {
+        }
 
-    }
+        public long getId() {
+                return id;
+        }
+
+        public void setId(long id) {
+                this.id = id;
+        }
+
+        public String getText() {
+                return text;
+        }
+
+        public void setText(String text) {
+                this.text = text;
+        }
+}
